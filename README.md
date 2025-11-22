@@ -20,7 +20,7 @@ spotify-clustering/
 │       └── clustering.py    # K-Means clustering
 │
 └── venv/              # Python virtual environment
-
+```
 
 
 ## Getting Started
