@@ -27,26 +27,29 @@ spotify-clustering/
 ```bash
 git clone https://github.com/tu-usuario/spotify-clustering.git
 cd spotify-clustering
-
+```
 ### 2. Create virtual environment 
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
-
+```
 ### 3. Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Add your dataset
 Place your Spotify CSV file in data/raw/.
 
 ### 5. Run the project
+```bash
 python src/main.py
-
-Features
+```
+# Features
 - Data preprocessing: cleaning, normalization, PCA reduction
 - K-Means clustering
--Interactive visualizations of clusters
--Clean and professional project structure
--Dependencies
+- Interactive visualizations of clusters
+- Clean and professional project structure
+- Dependencies
 
 All Python dependencies are listed in requirements.txt.
