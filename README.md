@@ -4,21 +4,23 @@ This project implements clustering on Spotify tracks using the K-Means algorithm
 
 ## Project Structure
 
+```text
 spotify-clustering/
 │
 ├── data/
-│ ├── raw/ # Original CSV dataset
-│ └── processed/ # Cleaned, normalized, and PCA-applied datasets
+│   ├── raw/         # Original CSV dataset
+│   └── processed/   # Cleaned, normalized, and PCA-applied datasets
 │
 ├── src/
-│ ├── main.py # Main script to run the project
-│ └── spotify_clustering/
-│ ├──── init.py
-│ ├──── preprocess.py # Data cleaning, normalization, and PCA
-│ ├──── visualization.py # Data visualization
-│ └──── clustering.py # K-Means clustering
+│   ├── main.py      # Main script to run the project
+│   └── spotify_clustering/
+│       ├── __init__.py
+│       ├── preprocess.py    # Data cleaning, normalization, and PCA
+│       ├── visualization.py # Data visualization
+│       └── clustering.py    # K-Means clustering
 │
-└── venv/ # Python virtual environment
+└── venv/              # Python virtual environment
+
 
 
 ## Getting Started
