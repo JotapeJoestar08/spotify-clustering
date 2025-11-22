@@ -9,13 +9,13 @@ venv/
 
 # Data
 data/processed/*          # Ignore all files inside processed
-!data/processed/.gitkeep  # Keep the folder if you want
+!data/processed/.gitkeep  # Keep the folder structure
 data/raw/*.csv            # Do NOT ignore CSVs in raw
-!data/raw/spotify.csv     # Make sure your main CSV is tracked
+!data/raw/spotify.csv     # Track the main CSV
 
 # Plots
-plots/*                   # Ignore all plots
-!plots/.gitkeep            # Keep the folder if needed
+plots/*                   # Ignore all files inside plots
+!plots/.gitkeep           # Keep the folder structure
 
 # Jupyter
 .ipynb_checkpoints/
