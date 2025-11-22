@@ -1,9 +1,3 @@
-
----
-
-### `.gitignore`
-
-```gitignore
 # Python
 __pycache__/
 *.py[cod]
@@ -14,8 +8,14 @@ venv/
 *.env
 
 # Data
-data/processed/
-*.csv
+data/processed/*          # Ignore all files inside processed
+!data/processed/.gitkeep  # Keep the folder if you want
+data/raw/*.csv            # Do NOT ignore CSVs in raw
+!data/raw/spotify.csv     # Make sure your main CSV is tracked
+
+# Plots
+plots/*                   # Ignore all plots
+!plots/.gitkeep            # Keep the folder if needed
 
 # Jupyter
 .ipynb_checkpoints/
