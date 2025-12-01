@@ -4,7 +4,7 @@ from spotify_clustering import preprocess, clustering, visualization
 
 def main():
     # Step 1: Preprocess the data
-    raw_file = 'data/raw/spotify.csv'  # Cambia esto al nombre de tu CSV
+    raw_file = 'data/raw/spotify.csv'
     print("Starting preprocessing...")
     df_raw, df_clean, df_normalized, df_pca = preprocess.preprocess_pipeline(raw_file)
     print("Preprocessing done!\n")
